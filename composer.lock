@@ -4,29 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3edc4e2a24a87b0cf47aea7d89c730f1",
-    "content-hash": "48c32358c6670a222bea5d62909a308d",
+    "hash": "a6cf63808523aba75af02ad16cd5a79c",
+    "content-hash": "ccda721615e70ff1e8cab71880bb5315",
     "packages": [
         {
             "name": "acacha/admin-lte-template-laravel",
-            "version": "3.1.8",
+            "version": "2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acacha/adminlte-laravel.git",
-                "reference": "c88c8bae9ffe9c43609b64e88d788dff0ec658c2"
+                "reference": "0674e87d972659c15c67c2e92d289921892bbda5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acacha/adminlte-laravel/zipball/c88c8bae9ffe9c43609b64e88d788dff0ec658c2",
-                "reference": "c88c8bae9ffe9c43609b64e88d788dff0ec658c2",
+                "url": "https://api.github.com/repos/acacha/adminlte-laravel/zipball/0674e87d972659c15c67c2e92d289921892bbda5",
+                "reference": "0674e87d972659c15c67c2e92d289921892bbda5",
                 "shasum": ""
             },
             "require": {
-                "acacha/user": "~0.1",
-                "creativeorange/gravatar": "~1.0",
                 "illuminate/console": "~5.0",
                 "illuminate/support": "~5.0",
-                "league/flysystem": "^1.0",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -60,61 +57,7 @@
                 "template",
                 "theme"
             ],
-            "time": "2016-11-20 18:59:34"
-        },
-        {
-            "name": "acacha/user",
-            "version": "0.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/acacha/user.git",
-                "reference": "198a3f9b5a61a17438cd39947550d3591cfa1ec2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acacha/user/zipball/198a3f9b5a61a17438cd39947550d3591cfa1ec2",
-                "reference": "198a3f9b5a61a17438cd39947550d3591cfa1ec2",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "^5.3",
-                "php": "~5.6|~7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0||~5.0",
-                "scrutinizer/ocular": "~1.1",
-                "squizlabs/php_codesniffer": "~2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Acacha\\User\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sergi Tur Badenas",
-                    "email": "sergiturbadenas@gmail.com",
-                    "homepage": "https://github.com/acacha",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A boosted User for Laravel",
-            "homepage": "https://github.com/acacha/user",
-            "keywords": [
-                "acacha",
-                "user"
-            ],
-            "time": "2016-09-13 11:59:21"
+            "time": "2016-05-26 18:35:55"
         },
         {
             "name": "appzcoder/crud-generator",
@@ -734,16 +677,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.3.25",
+            "version": "v5.3.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "90791f6a9eceebb1731ff7191141083ebb127c31"
+                "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/90791f6a9eceebb1731ff7191141083ebb127c31",
-                "reference": "90791f6a9eceebb1731ff7191141083ebb127c31",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/609bcffd2ce2006925f8304e022288b3da5d23a4",
+                "reference": "609bcffd2ce2006925f8304e022288b3da5d23a4",
                 "shasum": ""
             },
             "require": {
@@ -858,7 +801,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-11-29 14:42:22"
+            "time": "2016-11-30 14:58:38"
         },
         {
             "name": "laravelcollective/html",
@@ -1934,16 +1877,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.1.7",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc"
+                "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
-                "reference": "28b0832b2553ffb80cabef6a7a812ff1e670c0bc",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
+                "reference": "e8f47a327c2f0fd5aa04fa60af2b693006ed7283",
                 "shasum": ""
             },
             "require": {
@@ -1963,7 +1906,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -1990,7 +1933,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-13 06:28:43"
+            "time": "2016-10-13 06:29:04"
         },
         {
             "name": "symfony/finder",
@@ -4112,25 +4055,31 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.1.7",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "9da375317228e54f4ea1b013b30fa47417e84943"
+                "reference": "f2300ba8fbb002c028710b92e1906e7457410693"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/9da375317228e54f4ea1b013b30fa47417e84943",
-                "reference": "9da375317228e54f4ea1b013b30fa47417e84943",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/f2300ba8fbb002c028710b92e1906e7457410693",
+                "reference": "f2300ba8fbb002c028710b92e1906e7457410693",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
+            "require-dev": {
+                "symfony/console": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -4157,7 +4106,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:05:29"
+            "time": "2016-11-18 21:17:59"
         },
         {
             "name": "webmozart/assert",
